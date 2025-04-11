@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="692a1bc5-1812-4ff4-8a8a-05be31c46be9" name="Default Changelist" comment="my blog">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="AnnotationType" />
+        <option value="Kotlin Class" />
+        <option value="FxmlFile" />
+        <option value="Python Script" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\work\maven\apache-maven-3.6.1\mvn_resp" />
+        <option name="mavenHome" value="C:\work\maven\apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\work\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2nmTTPpblGuopAwi78lJM277Im2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.env" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wqm.controller" />
+      <recent name="com.wqm.entity.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaproject\QMBlog\qm-blog\src\test\java\com\wqm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaproject\QMBlog\qm-framework\src\main\resources\mapper" />
+      <recent name="D:\javaproject\QMBlog\qm-framework\src\main\java\com\wqm\config" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wqm" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wqm.controller" />
+      <recent name="com.wqm.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestEnv.test">
+    <configuration name="Test01.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qm-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wqm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wqm" />
+      <option name="MAIN_CLASS_NAME" value="com.wqm.Test01" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEnv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qm-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wqm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wqm" />
+      <option name="MAIN_CLASS_NAME" value="com.wqm.TestEnv" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEnv.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qm-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wqm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH=".env" />
+        </ENTRIES>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wqm" />
+      <option name="MAIN_CLASS_NAME" value="com.wqm.TestEnv" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qm-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wqm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH=".env" />
+        </ENTRIES>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wqm.BlogAdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QMBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qm-blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wqm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH=".env" />
+        </ENTRIES>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wqm.QMBlogApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Test01.test" />
+      <item itemvalue="JUnit.TestEnv.test" />
+      <item itemvalue="JUnit.TestEnv" />
+      <item itemvalue="Spring Boot.BlogAdminApplication" />
+      <item itemvalue="Spring Boot.QMBlogApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestEnv.test" />
+        <item itemvalue="JUnit.TestEnv" />
+        <item itemvalue="Spring Boot.QMBlogApplication" />
+        <item itemvalue="Spring Boot.BlogAdminApplication" />
+        <item itemvalue="JUnit.Test01.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="692a1bc5-1812-4ff4-8a8a-05be31c46be9" name="Default Changelist" comment="" />
+      <created>1729577261509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729577261509</updated>
+      <workItem from="1729577262593" duration="3863000" />
+      <workItem from="1729645698924" duration="434000" />
+      <workItem from="1729646146955" duration="777000" />
+      <workItem from="1729646956752" duration="2909000" />
+      <workItem from="1729650595651" duration="977000" />
+      <workItem from="1729651588451" duration="59000" />
+      <workItem from="1729651654915" duration="1780000" />
+      <workItem from="1729671229845" duration="2196000" />
+      <workItem from="1729818463795" duration="5911000" />
+      <workItem from="1729903187986" duration="6648000" />
+      <workItem from="1729991667249" duration="1667000" />
+      <workItem from="1730033852418" duration="1693000" />
+      <workItem from="1730092647107" duration="7507000" />
+      <workItem from="1730946459824" duration="1193000" />
+      <workItem from="1731552678946" duration="3415000" />
+      <workItem from="1731652471196" duration="593000" />
+      <workItem from="1732085044603" duration="1572000" />
+      <workItem from="1732521040513" duration="2722000" />
+      <workItem from="1732609311410" duration="6997000" />
+      <workItem from="1732760937812" duration="11167000" />
+      <workItem from="1732845801874" duration="4943000" />
+      <workItem from="1732888528502" duration="2425000" />
+      <workItem from="1732947424775" duration="627000" />
+      <workItem from="1733103896792" duration="5658000" />
+      <workItem from="1733141473874" duration="4390000" />
+      <workItem from="1733192784934" duration="12346000" />
+      <workItem from="1733242003597" duration="597000" />
+      <workItem from="1733289003940" duration="2222000" />
+      <workItem from="1733304348828" duration="756000" />
+      <workItem from="1733305151219" duration="2746000" />
+      <workItem from="1733392042879" duration="2537000" />
+      <workItem from="1733538898488" duration="4644000" />
+      <workItem from="1733747821482" duration="2851000" />
+      <workItem from="1733800009871" duration="6785000" />
+      <workItem from="1733847179540" duration="594000" />
+      <workItem from="1733898273146" duration="5524000" />
+      <workItem from="1733919747611" duration="2213000" />
+      <workItem from="1734058360896" duration="3321000" />
+      <workItem from="1734061899846" duration="548000" />
+      <workItem from="1734329143247" duration="9432000" />
+      <workItem from="1734416617051" duration="1822000" />
+      <workItem from="1734504403870" duration="626000" />
+      <workItem from="1734676561054" duration="11139000" />
+      <workItem from="1734759356086" duration="6139000" />
+      <workItem from="1734962229117" duration="2433000" />
+      <workItem from="1735020521508" duration="7376000" />
+      <workItem from="1735052324882" duration="5326000" />
+      <workItem from="1735111804003" duration="13862000" />
+      <workItem from="1735190405387" duration="2076000" />
+      <workItem from="1735215375024" duration="280000" />
+      <workItem from="1735215792724" duration="5480000" />
+      <workItem from="1735280476661" duration="9049000" />
+      <workItem from="1735470832356" duration="2768000" />
+      <workItem from="1735541327554" duration="1401000" />
+      <workItem from="1735562802978" duration="232000" />
+      <workItem from="1735563061761" duration="292000" />
+      <workItem from="1735563556481" duration="100000" />
+      <workItem from="1735717055110" duration="88000" />
+      <workItem from="1735717393096" duration="598000" />
+      <workItem from="1735718790832" duration="2595000" />
+      <workItem from="1735721443687" duration="8397000" />
+      <workItem from="1735797134875" duration="5316000" />
+      <workItem from="1735807506839" duration="1825000" />
+      <workItem from="1735815751732" duration="5523000" />
+      <workItem from="1735885576800" duration="595000" />
+      <workItem from="1735903010337" duration="825000" />
+      <workItem from="1735956716048" duration="595000" />
+      <workItem from="1736324546596" duration="3379000" />
+      <workItem from="1736342011621" duration="1311000" />
+      <workItem from="1736735245705" duration="3284000" />
+      <workItem from="1736772100984" duration="6958000" />
+      <workItem from="1736824578309" duration="10445000" />
+      <workItem from="1737011791009" duration="593000" />
+      <workItem from="1737079935370" duration="7400000" />
+      <workItem from="1737166066764" duration="13388000" />
+      <workItem from="1737251589062" duration="4729000" />
+      <workItem from="1737271371124" duration="5366000" />
+      <workItem from="1737335149315" duration="3063000" />
+      <workItem from="1737426307035" duration="8496000" />
+      <workItem from="1737506263330" duration="21404000" />
+      <workItem from="1737712240892" duration="1198000" />
+      <workItem from="1738976907997" duration="4798000" />
+      <workItem from="1739020810200" duration="600000" />
+      <workItem from="1739072473025" duration="2479000" />
+      <workItem from="1739151952641" duration="6430000" />
+      <workItem from="1739426897382" duration="10526000" />
+      <workItem from="1739509359678" duration="9670000" />
+      <workItem from="1739583999090" duration="5764000" />
+      <workItem from="1739601370472" duration="5653000" />
+      <workItem from="1739625295971" duration="1598000" />
+      <workItem from="1739679908119" duration="2002000" />
+      <workItem from="1739758590173" duration="4887000" />
+      <workItem from="1739794267362" duration="7000" />
+      <workItem from="1739843452444" duration="2776000" />
+      <workItem from="1739862394904" duration="4000" />
+      <workItem from="1739930002408" duration="2914000" />
+      <workItem from="1739933074693" duration="2385000" />
+      <workItem from="1739949673806" duration="5775000" />
+      <workItem from="1739963214695" duration="1000" />
+      <workItem from="1740013651939" duration="9390000" />
+      <workItem from="1740056143375" duration="4882000" />
+      <workItem from="1740099572921" duration="5187000" />
+      <workItem from="1740105334127" duration="2176000" />
+      <workItem from="1740129746746" duration="1310000" />
+      <workItem from="1740358966865" duration="7397000" />
+      <workItem from="1740397683956" duration="4366000" />
+      <workItem from="1740463288495" duration="14056000" />
+      <workItem from="1740536427740" duration="999000" />
+      <workItem from="1740629553549" duration="7986000" />
+      <workItem from="1740663096882" duration="1379000" />
+      <workItem from="1740709229359" duration="13573000" />
+      <workItem from="1740745808425" duration="909000" />
+      <workItem from="1740791165538" duration="7818000" />
+      <workItem from="1740817134559" duration="10349000" />
+      <workItem from="1740873628941" duration="8512000" />
+      <workItem from="1740919353539" duration="313000" />
+      <workItem from="1741243634421" duration="1954000" />
+      <workItem from="1741245928851" duration="1328000" />
+      <workItem from="1741247309216" duration="1173000" />
+      <workItem from="1741259075049" duration="7273000" />
+      <workItem from="1741352149178" duration="1233000" />
+      <workItem from="1741400042723" duration="1000" />
+      <workItem from="1742002754719" duration="1637000" />
+      <workItem from="1742051017891" duration="31000" />
+      <workItem from="1742914655554" duration="2910000" />
+      <workItem from="1742953190569" duration="12596000" />
+      <workItem from="1743581042004" duration="679000" />
+      <workItem from="1743715829106" duration="1111000" />
+      <workItem from="1743772255587" duration="604000" />
+      <workItem from="1744015057133" duration="21000" />
+      <workItem from="1744197013835" duration="4033000" />
+      <workItem from="1744206426298" duration="1754000" />
+      <workItem from="1744251878636" duration="386000" />
+      <workItem from="1744279032154" duration="1173000" />
+      <workItem from="1744280222943" duration="1145000" />
+      <workItem from="1744281400268" duration="2313000" />
+      <workItem from="1744283728449" duration="4441000" />
+      <workItem from="1744323440607" duration="2476000" />
+      <workItem from="1744326370825" duration="2669000" />
+      <workItem from="1744346712741" duration="2739000" />
+      <workItem from="1744349494116" duration="4621000" />
+      <workItem from="1744354813560" duration="1400000" />
+      <workItem from="1744356227948" duration="49000" />
+      <workItem from="1744356421297" duration="370000" />
+      <workItem from="1744356830556" duration="665000" />
+    </task>
+    <task id="LOCAL-00001" summary="my blog">
+      <created>1742003173921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742003173921</updated>
+    </task>
+    <task id="LOCAL-00002" summary="my blog">
+      <created>1744283404983</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744283404983</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="my blog" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/qm-framework/src/main/java/com/wqm/service/impl/UserServiceImpl.java</url>
+          <line>172</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/qm-framework/src/main/java/com/wqm/service/impl/ArticleServiceImpl.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

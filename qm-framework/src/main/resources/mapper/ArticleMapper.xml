@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wqm.mapper.ArticleMapper">
+<select id="selectBackArticleCount" resultType="java.lang.Long">
+    select count(DISTINCT a.id) from sg_article a
+    <where>
+        del_flag = 0
+        <if test="title != null and title != ''">
+            and title like concat('%', #{title}, '%')
+        </if>
+        <if test="summary != null and summary != ''">
+            and summary like concat('%', #{summary}, '%')
+        </if>
+    </where>
+</select>
+    <select id="selectBackArticleList" resultType="com.wqm.entity.Article">
+        select  * from  sg_article a
+        <where>
+            del_flag = 0
+            <if test="title != null and title != ''">
+                and title like concat('%', #{title}, '%')
+            </if>
+            <if test="summary != null and summary != ''">
+                and summary like concat('%', #{summary}, '%')
+            </if>
+        </where>
+
+    </select>
+</mapper>

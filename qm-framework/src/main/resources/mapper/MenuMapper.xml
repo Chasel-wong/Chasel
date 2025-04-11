@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wqm.mapper.SysMenuMapper">
+    <select id="selectAllRouterMenu" resultType="com.wqm.entity.SysMenu">
+        SELECT
+            DISTINCT m.id, m.parent_id, m.menu_name, m.path, m.component, m.visible, m.status, IFNULL(m.perms,'') AS perms, m.is_frame,  m.menu_type, m.icon, m.order_num, m.create_time
+        FROM
+            `sys_menu` m
+        WHERE
+            m.`menu_type` IN ('C','M') AND
+            m.`status` = 0 AND
+            m.`del_flag` = 0
+        ORDER BY
+            m.parent_id,m.order_num
+    </select>
+    <select id="selectRouterMenuTreeByUserId" resultType="com.wqm.entity.SysMenu">
+        SELECT
+            DISTINCT m.id, m.parent_id, m.menu_name, m.path, m.component, m.visible, m.status, IFNULL(m.perms,'') AS perms, m.is_frame,  m.menu_type, m.icon, m.order_num, m.create_time
+        FROM
+            `sys_user_role` ur
+                LEFT JOIN `sys_role_menu` rm ON ur.`role_id` = rm.`role_id`
+                LEFT JOIN `sys_menu` m ON m.`id` = rm.`menu_id`
+        WHERE
+            ur.`user_id` = #{userId} AND
+            m.`menu_type` IN ('C','M') AND
+            m.`status` = 0 AND
+            m.`del_flag` = 0
+        ORDER BY
+            m.parent_id,m.order_num
+    </select>
+    <select id="selectMenuListVo" resultType="com.wqm.entity.request.MenuReq">
+        SELECT id,
+               parent_id,
+               menu_type,
+               menu_name,
+               path,
+               icon,
+               component,
+               perms,
+               order_num,
+               is_frame,
+               visible,
+               status,
+               remark
+        from sys_menu
+        <where>
+          del_flag = 0
+           <if test="menuName != null and menuName !=''">
+               and menu_name like concat("%"#{menuName},%)
+           </if>
+           <if test="status != null and status !=''">
+               and status = #{status}
+           </if>
+        </where>
+    </select>
+    <select id="selectMenu" resultType="com.wqm.entity.vo.MenuListVo">
+        SELECT
+        id,
+        menu_name AS label,
+        parent_id
+        FROM sys_menu
+        WHERE
+        status = 0 AND
+        del_flag = 0
+        order by
+        parent_id,order_num
+    </select>
+    <select id="selectMenuById" resultType="com.wqm.entity.vo.MenuListVo">
+        SELECT
+            id,
+            menu_name AS label,
+            parent_id
+        FROM sys_menu
+        WHERE
+            status = 0 AND
+            del_flag = 0 AND
+            id = #{menuId}
+    </select>
+</mapper>
